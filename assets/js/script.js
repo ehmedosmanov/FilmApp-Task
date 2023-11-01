@@ -74,9 +74,6 @@ async function getFilmData() {
       </div>
     </div>
       `
-      if (element.rating.average === null) {
-        console.log(element)
-      }
     })
 
     cardContainer.innerHTML = temp
